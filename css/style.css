@@ -108,6 +108,10 @@ ul li h5 {
     height: 410px;
 }
 
+footer {
+    padding-top: 200px;
+}
+
 
 
 @media (max-width: 768px) .jumbotronImg {
