@@ -105,7 +105,7 @@ ul li h5 {
 }
 
 .history .card-panel {
-    height: 410px;
+    height: 500px;
 }
 
 footer {
@@ -114,8 +114,51 @@ footer {
 
 
 
-@media (max-width: 768px) .jumbotronImg {
+@media (max-width: 576px) .jumbotronImg {
     height: 150px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.history .card-panel {
+    height: 550px;
+}
+
+ul.list-history li::before {
+    content: '';
+    background: #2F52E0;
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    top: -440px;
+    left: 1px;
+    width: 15px;
+    height: 15px;
+}
+
+
+ul.list-history::before {
+    content: '';
+    background: #2F52E0;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 7px;
+    width: 3px;
+    height: 450px;
+}
+
+ul li h5 {
+    position: relative;
+    top: -480px;
+    padding-left: 25px;
+    font-family: "Segoe UI Bold", Arial, sans-serif;
+    font-weight: bold;
+}
+
+.text-history {
+    position: relative;
+    top: -480px;
+    padding-left: 25px;
+    font-family: "Work Sans", Arial, sans-serif;
 }
