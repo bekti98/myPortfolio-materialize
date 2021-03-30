@@ -11,6 +11,9 @@ section {
     opacity: 0.6;
     font-weight: bold;
     margin-top: 56px;
+    height: 200px;
+    width: 100%;
+    text-align: center;
 }
 
 .nav-link:hover::after {
@@ -35,15 +38,11 @@ section {
     border-radius: 15px;
 }
 
-.button-about:hover {
-    content: '';
-    margin-bottom: 30px !important;
-}
-
 .kopet,
 .card-panel {
     border-radius: 27px !important;
 }
+
 
 .text-about,
 p {
@@ -53,6 +52,8 @@ p {
 
 h3 {
     font-family: "Segoe UI Bold", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 #skill h5,
@@ -110,6 +111,14 @@ ul li h5 {
 
 footer {
     padding-top: 200px;
+}
+
+.btn-kirim {
+    width: 100%;
+    border-radius: 25px;
+    height: 40px;
+    box-shadow: 5px 5px 5px rgba(67, 109, 245, 0.6);
+    font-family: "Work Sans", Arial, sans-serif;
 }
 
 
