@@ -1,3 +1,7 @@
+.darkMode {
+    background-color: #212121;
+}
+
 section {
     margin-top: 100px;
 }
@@ -32,6 +36,7 @@ section {
 
 .profile {
     box-shadow: 4px 15px 4px rgba(61, 144, 238, 0.5);
+    width: 300px;
 }
 
 .button-about {
@@ -170,4 +175,9 @@ ul li h5 {
     top: -480px;
     padding-left: 25px;
     font-family: "Work Sans", Arial, sans-serif;
+}
+
+#darkMode {
+    margin-top: 5px;
+    height: 45px;
 }
